@@ -1,0 +1,126 @@
+.reg-container {
+    width: 70%;
+    background: rgb(245, 182, 157);
+    ;
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px dotted rgb(6, 5, 5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.header-wrapper .btn {
+    margin: 30px 10px 0 0;
+
+}
+
+.stu-btn {
+    background: rgb(245, 182, 157);
+    ;
+    border: 1px solid black;
+    font-size: 16px;
+    color: black;
+}
+
+.regi-input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.regi-input>input {
+    padding: 6px 7px;
+    margin-top: 4px;
+    font-size: 18px;
+    color: black;
+}
+
+.regi-input>input:focus {
+    outline: none;
+}
+
+.rolle {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+
+}
+
+.rolle input {
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+}
+
+.rolle span {
+    margin-left: 3px;
+    color: black;
+    font-size: 17px;
+}
+
+.birth-day {
+    margin-top: 10px;
+
+}
+
+.birth-day input {
+    padding: 3px 10px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.class,
+.rollnum {
+
+    margin-top: 10px;
+}
+
+.class>input,
+.rollnum>input {
+    width: 60%;
+    padding: 5px 7px;
+    font-size: 17px;
+    color: black;
+    margin-left: 15px;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.button-wrapper>button {
+    margin-left: 20px;
+}
+
+.button-wrapper>button:hover {
+    background: rgb(245, 182, 157);
+    border: 1px solid black;
+}
+
+.button-wrapper>p>a {
+    font-weight: 600;
+    color: black;
+    margin-left: 6px;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+}

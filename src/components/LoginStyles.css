@@ -1,0 +1,51 @@
+.login-cont {
+    width: 30%;
+    background: rgb(245, 182, 157);
+    ;
+    margin: 40px auto;
+    padding: 40px;
+    border: 2px dotted black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-field input {
+    padding: 5px 7px;
+    font-size: 17px;
+    color: rgb(71, 71, 71);
+}
+
+.login-field input:focus {
+    outline: none;
+}
+
+.log-btn {
+    padding: 7px 0;
+    background: wheat;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 0px 0px 7px black;
+}
+
+.login-cont>p {
+    text-align: right;
+}
+
+.login-cont>p>a {
+    font-weight: 600;
+    color: black;
+    margin-left: 5px;
+}
